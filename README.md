@@ -1,1 +1,1 @@
-# imc-calculator
+# bmi-calculator

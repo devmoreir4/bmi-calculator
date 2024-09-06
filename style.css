@@ -151,7 +151,7 @@ form button:hover {
 
 .alert-error {
     position: absolute;
-    color: #f03e3e;
+    background-color: #f03e3e;
     top: 0;
     left: 0;
     right: 0;

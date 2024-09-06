@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>IMC Calculator</title>
+    <title>BMI Calculator</title>
 
-    <script src="./script.js" defer♂></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
 
-    <div class="alert-error">Digite apenas números</div>
+    <div class="alert-error">Enter numbers only</div>
 
     <div class="container">
         <main class="card">
-            <form action="">
-                <h1 class="title">IMC Calculator</h1>
+            <form>
+                <h1 class="title">BMI Calculator</h1>
                 <div class="input-wrapper">
-                    <label for="weight">Peso (kg)</label>
+                    <label for="weight">Weight (kg)</label>
                     <input id="weight" type="text" placeholder="60">
                 </div>
                 
                 <div class="input-wrapper"></div>
-                    <label for="height">Altura (cm)</label>
+                    <label for="height">Height (cm)</label>
                     <input  id="height" type="text" placeholder="156">
-                    <button type="submit">Calcular IMC &rarr;</button>
+                    <button type="submit">Check BMI &rarr;</button>
                 </div>
                 
                 
@@ -35,8 +35,10 @@
 
     <div class="modal-wrapper">
         <div class="modal card">
-            <h2 class="title">Seu IMC é X</h2>
-            <button class="close">x</button>
+            <h2 class="title">
+                <button class="close">&times;</button>
+                <span>Seu IMC é X</span>
+            </h2> 
         </div>
     </div>
 
